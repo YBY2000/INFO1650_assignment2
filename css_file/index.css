@@ -1,0 +1,34 @@
+/* =========================== main =========================== */
+.intro_avatar {
+    height: 50px;
+    width: 50px;
+    border-radius: 25px 25px 25px 25px;
+    float: left;
+}
+.intro_name {
+    margin-left: 5%;
+    padding: 0.5%;
+    text-indent: 1em;
+    width: max-content;
+    font-size: xx-large;
+    background: linear-gradient(to right, rgb(255, 28, 175), rgb(108, 248, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.intro_content {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+main img {
+    width: 49%;
+}
+.entry {
+    margin-top: 5%;
+}
+
+.img_left {
+    margin: 0 1.5% 1.5% 0;
+}
+.img_right {
+    margin-bottom: 1.5%;
+}
