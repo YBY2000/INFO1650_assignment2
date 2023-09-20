@@ -1,6 +1,8 @@
-.self_intro {
-
+.language_change {
+    text-align: right;
 }
+
+
 .self_intro_img {
     float: left;
     padding: 15%;
@@ -34,4 +36,3 @@ h2 {
     text-decoration: underline;
     color: rgb(4, 213, 255);
 }
-

@@ -11,17 +11,23 @@
     <div>
         <header>Portfolio</header>
         <nav>
-            <ul>
+            <menu>
                 <li><a href="index.html">Playground</a></li>
                 <li><a href="about.html" class="current_page">About</a></li>
                 <li><a href="">Resume</a></li>
-            </ul>
+            </menu>
         </nav>
     </div>
 
     <main>
+        <form class="language_change">
+            <input type="radio" name="lang" id="ENG" value="ENG" checked>ENG
+            <input type="radio" name="lang" id="CHN" value="CHN">中
+            <input type="button" onclick="changeLang()" value="submit">
+        </form>
+
         <div class="self_intro">
-            <div class="self_intro_img"><img src="resources/avatar.png" alt="my_img" class="my_img"></div>
+            <div class="self_intro_img"><img src="resources/my_img.jpg" alt="my_img" class="my_img"></div>
             <div class="self_intro_content">
                 <h2><i>Hi, I'm Boyuan</i></h2>
                 <span>Originally from Guizhou China, I studied Computer Science of Artificial Intelligence in my Bachlor's Degree and 
@@ -44,8 +50,8 @@
         <div class="footer_copyright">
             Copyright &copy; Boyuan YE 2023
         </div>
-        <div class="footer_info">
-            <ul>
+        <div>
+            <ul class="footer_info">
                 <li><a href="mailto:ye.boy@northeastern.edu"><img src="resources/email.png" alt="email"></a></li>
                 <li><a href="https://www.instagram.com/yby_0930/"><img src="resources/ins.png" alt="ins"></a></li>
                 <li><a href="tel:8575401491"><img src="resources/tel.png" alt="tel"></a></li>
