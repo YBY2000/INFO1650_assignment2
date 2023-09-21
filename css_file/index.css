@@ -1,17 +1,7 @@
 /* =========================== main =========================== */
-.intro_avatar {
-    height: 50px;
-    width: 50px;
-    border-radius: 25px 25px 25px 25px;
-    float: left;
-}
 .intro_name {
-    margin-left: 5%;
-    padding: 0.5%;
-    text-indent: 1em;
-    width: max-content;
     font-size: xx-large;
-    background: linear-gradient(to right, rgb(255, 28, 175), rgb(108, 248, 255));
+    background: linear-gradient(to bottom, rgb(255, 28, 175), rgb(108, 248, 255));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -20,7 +10,8 @@
 }
 
 main img {
-    width: 49%;
+    max-width: 49%;
+    height: auto;
 }
 .entry {
     margin-top: 5%;
@@ -31,4 +22,47 @@ main img {
 }
 .img_right {
     margin-bottom: 1.5%;
+}
+
+
+
+/* =========================== pad device =========================== */
+
+@media only screen and (max-width: 1024px) {
+    main img {
+        max-width: 49%;
+        height: auto;
+    }
+    .entry {
+        margin-top: 5%;
+    }
+    
+    .img_left {
+        margin: 0 1.5% 1.5% 0;
+    }
+    .img_right {
+        margin-bottom: 1.5%;
+    }
+}
+
+/* =========================== phone device =========================== */
+@media only screen and (max-width: 768px) {
+    .intro_name {
+        text-align: center;
+    }
+    .intro_content {
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    main img {
+        max-width: 90%;
+        height: auto;
+        display: block;
+    }
+    .entry {
+        margin-top: 5%;
+        display: block;
+        margin-left: 10%;
+    }
 }
