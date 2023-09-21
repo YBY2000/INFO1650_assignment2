@@ -10,7 +10,7 @@
 }
 
 main img {
-    max-width: 49%;
+    max-width: 47%;
     height: auto;
 }
 .entry {
@@ -30,7 +30,7 @@ main img {
 
 @media only screen and (max-width: 1024px) {
     main img {
-        max-width: 49%;
+        max-width: 47%;
         height: auto;
     }
     .entry {
@@ -43,6 +43,8 @@ main img {
     .img_right {
         margin-bottom: 1.5%;
     }
+	h1, h2 { font-size: 120%; }
+	body { font-size: 90%; }
 }
 
 /* =========================== phone device =========================== */

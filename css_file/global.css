@@ -136,6 +136,8 @@ main {
         width: 20px;
         height: 20px;
     }
+	h1, h2 { font-size: 120%; }
+	body { font-size: 90%; }
 }
 
 

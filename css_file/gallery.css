@@ -1,0 +1,97 @@
+/* =========================== body =========================== */
+    body {
+        background-color: rgba(0, 0, 0, 0.90);
+        color: white;
+        width: 80%;
+        margin: 0 auto;
+    } 
+    
+    h1 {
+        text-align: center;
+    }
+    
+    button {
+        position: relative; 
+        height: 40px;
+        width: 80px;
+        border-radius: 10%;
+        margin-left: 40px;
+        background-color: rgb(255, 255, 255);
+    }
+    
+    #gallery { 
+        position: relative; 
+    }
+    #gallery ul { 
+        width: 90%; 
+        list-style-type: none; 
+    }
+    
+    #gallery li { 
+        display: inline; 
+        float: left;
+        padding: 10px;
+    }
+
+    .thumb_img {
+        max-width: 10%;
+        height: auto;
+    }
+
+    .normal_img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    #gallery img { 
+        border-style: none; 
+    }
+    #gallery a { 
+        text-decoration: none; 
+        color: whitesmoke;
+        font-style: italic; 
+    }
+    
+    #gallery span { 
+        display: none; 
+    }
+    #gallery a:hover span { 
+        display: block; 
+        position: absolute;
+        top: 10px; 
+        left: 300px; 
+        text-align: center; 
+    }
+    
+    
+    .img_description {
+        margin-top: 10%;
+        font-style: normal;
+    }
+
+
+
+/* =========================== pad device =========================== */
+
+@media only screen and (max-width: 1024px) {
+    /* body {
+        background-color: white;
+    }  */
+
+    .thumb_img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    #gallery a { 
+        text-decoration: none; 
+        color: whitesmoke;
+        font-style: italic; 
+    }
+    #gallery a:hover span { 
+        display: none; 
+    }
+    
+	h1, h2 { font-size: 120%; }
+	body { font-size: 90%; }
+}

@@ -66,6 +66,8 @@ h2 {
         line-height:25px;
         overflow: none;
     }
+	h1, h2 { font-size: 120%; }
+	body { font-size: 90%; }
 
 }
 
