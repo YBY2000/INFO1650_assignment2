@@ -1,0 +1,113 @@
+#table_detail {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 30px;
+    border: 1px solid rgb(255, 255, 255);
+}
+
+tr:first-child {
+    font-size: 200%;
+}
+td:first-child {
+    width: 30%;
+    height: max-content;
+}
+
+td > img {
+    width: 90%;
+    padding: 5%;
+}
+
+td > video {
+    width: 90%;
+    padding: 5%;
+}
+
+summary {
+    color: rgba(43, 155, 253, 0.822);
+    font-size: 150%;;
+}
+
+button {
+    position: relative;
+    top: 20px;
+    left: 100px
+}
+
+/* =========================== pad device =========================== */
+
+@media only screen and (max-width: 1024px) {
+    #table_detail {
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+
+    tr:first-child {
+        font-size: 200%;
+    }
+    td:first-child {
+        width: 40%;
+        height: max-content;
+    }
+
+    td > img {
+        height: 40%;
+        width: 90%;
+        padding: 5%;
+    }
+    td :last-child {
+        height: 40%;
+    }
+
+    summary {
+        color: rgba(43, 155, 253, 0.822);
+        font-size: 150%;;
+    }
+
+    button {
+        position: relative;
+        top: 20px;
+        left: 100px
+    }
+}
+
+
+@media only screen and (max-width: 500px) {
+    #table_detail {
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+
+    tr:first-child {
+        font-size: 150%;
+    }
+    td:first-child {
+        width: 40%;
+        height: max-content;
+    }
+    td :last-child p {
+        font-size: small;
+    }
+
+    td > img {
+        height: 40%;
+        width: 90%;
+        padding: 5%;
+    }
+    td :last-child {
+        height: 40%;
+    }
+
+    summary {
+        color: rgba(43, 155, 253, 0.822);
+        font-size: 120%;;
+    }
+
+    button {
+        position: relative;
+        top: 20px;
+        left: 20px
+    }
+}

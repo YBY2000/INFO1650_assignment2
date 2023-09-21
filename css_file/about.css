@@ -72,7 +72,7 @@ h2 {
 }
 
 /* =========================== phone device =========================== */
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 500px) {
     .language_change {
         text-align: center;
     }

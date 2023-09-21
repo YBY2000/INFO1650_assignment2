@@ -10,7 +10,7 @@
 }
 
 main img {
-    max-width: 47%;
+    max-width: 49%;
     height: auto;
 }
 .entry {
@@ -48,7 +48,7 @@ main img {
 }
 
 /* =========================== phone device =========================== */
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 500px) {
     .intro_name {
         text-align: center;
     }
@@ -67,4 +67,6 @@ main img {
         display: block;
         margin-left: 10%;
     }
+	h1, h2 { font-size: 100%; }
+	body { font-size: 70%; }
 }
